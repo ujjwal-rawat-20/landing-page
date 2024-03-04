@@ -97,6 +97,15 @@ body {
     height: 74px;
 }
 
+.main-content-headings p:nth-child(2) {
+    color: white;
+}
+
+
+.main-content {
+    margin-top: 28px;
+}
+
 .main-content-para {
     width: 500px;
     color: whitesmoke;
