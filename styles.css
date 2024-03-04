@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #20374c;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    height: 100%;
+}
+
+.navbar {
+    width: 100%;
+    height: 150px;
+    position: relative;
+    /* background-color: antiquewhite; */
+    color: whitesmoke;
+}
+
+.logo, .links , .links .link{
+    display: inline-block;
+    margin: 0 22px;
+}
+
+
+.links {
+    float: right;
+    margin-left: 623px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.links img {
+    width: 55px;
+    position: absolute;
+    top: 8px;
+}
+
+.logo img {
+    width: 200px;
+    position: absolute;
+    left: -2px;
+    top: 0px;
+}
+
+.navbar .navbarContainer {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#triangle {
+    width: 10px;
+    margin-right: -11px;
+    position: absolute;
+    right: 377px;
+    top: 33px;
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+}
+
+.main img {
+    width: 700px;
+    height: 100%;
+}
+
+.main-content, .main-img {
+    display: inline-block;
+
+}
+
+.main-img {
+    float: right;
+}
+
+.main-content-headings {
+    font-size: 68px;
+    font-weight: bold;
+}
+
+.main-content-headings p:nth-child(1) {
+    color: #fdc11f;
+    height: 74px;
+}
+
+.main-content-para {
+    width: 500px;
+    color: whitesmoke;
+    margin-top: 20px;
+}
+
+.inputs {
+    margin-top: 11px;
+}
+
+.inputs input {
+    padding: 15px;
+    outline: none;
+    border: none;
+    border-radius: 30px;
+    width: 300px;
+    margin: 15px 0;
+}
+
+.inputs button {
+    width: 100px;
+    background-color: #fdc11f;
+    padding: 10px;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+    margin: 10px 0;
+}
+
+.inputs button img {
+    width: 8px;
+    height: 8px;
+}
+
+.line-container {
+    width: 100%;
+    text-align: center;
+}
+
+.line-container img {
+    width: 200px;
+    height: 8px;
+    margin-top: 64px;
+    position: absolute;
+    margin-left: 200px;
+}
+
