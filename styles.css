@@ -114,6 +114,7 @@ body {
 
 .inputs {
     margin-top: 11px;
+    width: 47%;
 }
 
 .inputs input {
@@ -135,7 +136,12 @@ body {
     margin: 10px 0;
 }
 
-.inputs button img {
+.inputs .message-img {
+    width: 58px;
+    margin-left: 477px;
+}
+
+.inputs .send-button img {
     width: 8px;
     height: 8px;
 }
@@ -148,7 +154,7 @@ body {
 .line-container img {
     width: 200px;
     height: 8px;
-    margin-top: 64px;
+    margin-top: 38px;
     position: absolute;
     margin-left: 200px;
 }
